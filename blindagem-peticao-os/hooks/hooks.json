@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '[blindagem-peticao-os] Triagem de integridade carregada. Use /blindagem para auditar a peça recebida — ou /blindagem-propria antes de protocolar a sua.'"
+          }
+        ]
+      }
+    ]
+  }
+}

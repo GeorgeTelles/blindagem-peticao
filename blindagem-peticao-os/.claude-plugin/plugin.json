@@ -1,0 +1,8 @@
+{
+  "name": "blindagem-peticao-os",
+  "version": "0.1.0",
+  "description": "Triagem de integridade de peça processual com IA: audita a petição recebida da parte contrária e a sua antes do protocolo. Detecta texto oculto, prompt injection, unicode invisível e homóglifos, metadados, jurisprudência inventada e dispositivo de lei inexistente, e gera dossiê de integridade. Sinaliza com evidência; nunca vende \"detector de IA\".",
+  "author": {
+    "name": "IA Combativa"
+  }
+}

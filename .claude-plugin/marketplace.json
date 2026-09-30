@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "blindagem-peticao-os-marketplace",
+  "description": "Marketplace oficial do plugin Blindagem de Petição OS. Triagem de integridade de peça processual — texto oculto, prompt injection, jurisprudência inventada, dispositivo de lei inexistente, metadados e gaps da tese.",
+  "owner": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+  },
+  "plugins": [
+    {
+      "name": "blindagem-peticao-os",
+      "source": "./blindagem-peticao-os",
+      "description": "Triagem de integridade de peça processual com IA — audita a petição recebida da parte contrária e a sua antes do protocolo. Detecta texto oculto e prompt injection (parsing local determinístico), unicode invisível e homóglifos, metadados vazando autoria, jurisprudência inventada e dispositivo de lei inexistente (conferência com fetch real na fonte), e transforma os achados em dossiê de integridade e tópico de impugnação por litigância de má-fé.",
+      "author": {
+        "name": "Sbroggio Advocacia & IA Combativa"
+      }
+    }
+  ]
+}
